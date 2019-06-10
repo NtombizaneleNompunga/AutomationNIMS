@@ -1,0 +1,8 @@
+url = https://nims.nihilent.com/hrms/ 
+username = alok.ranjan@nihilent.com
+password = King~1234
+
+browser = chrome
+
+implicit_wait = 10
+page_load_timeout = 20
