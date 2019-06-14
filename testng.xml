@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="6" verbose="10"  name="Suite" parallel="false">
+  <test verbose="6"  name="Test" group-by-instances="true">
+    <classes>
+      <class name="pages.HomePage.HomePageTitle"/>
+      <class name="pages.loginPage.LoginTest"/>
+      <class name="pages.MainMenu.MainMenu"/>
+      <class name="pages.ReportProblem.ReportProblem"/>
+      <class name="pages.LoginAdmin.TestLoginAdmin"/>
+      <class name="pages.AdminMainMenu.TestAdminMenu"/>
+      <class name="pages.OpenRequests.TestOpenRequests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

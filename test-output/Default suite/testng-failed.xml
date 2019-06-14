@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pages.HomePage.HomePageTitle">
+      <class name="pages.OpenRequests.TestOpenRequests">
         <methods>
-          <include name="homePageTitleTest"/>
+          <include name="testSearchForProbleByProblemNumber"/>
         </methods>
-      </class> <!-- pages.HomePage.HomePageTitle -->
+      </class> <!-- pages.OpenRequests.TestOpenRequests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

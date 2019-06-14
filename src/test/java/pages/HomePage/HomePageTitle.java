@@ -12,10 +12,7 @@ public class HomePageTitle extends NIMSBase{
 	@Test
 	public void homePageTitleTest() {
 		
-		launch();
-		
-		
-		
+		launch();	
 	}
 
 }

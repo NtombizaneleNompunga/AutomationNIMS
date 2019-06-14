@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="5" total="8" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11522" started-at="2019-06-01T09:56:19Z" finished-at="2019-06-01T09:56:30Z">
+  <suite name="Suite" duration-ms="35889" started-at="2019-06-14T11:55:53Z" finished-at="2019-06-14T11:56:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11522" started-at="2019-06-01T09:56:19Z" finished-at="2019-06-01T09:56:30Z">
+    <test name="Test" duration-ms="35889" started-at="2019-06-14T11:55:53Z" finished-at="2019-06-14T11:56:29Z">
       <class name="pages.HomePage.HomePageTitle">
-        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:pages.HomePage.HomePageTitle@5419f379]" name="homePageTitleTest" duration-ms="11504" started-at="2019-06-01T15:26:19Z" finished-at="2019-06-01T15:26:30Z">
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:pages.HomePage.HomePageTitle@20e2cbe0]" name="homePageTitleTest" duration-ms="13042" started-at="2019-06-14T17:25:53Z" finished-at="2019-06-14T17:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
       </class> <!-- pages.HomePage.HomePageTitle -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="pages.AdminMainMenu.TestAdminMenu">
+        <test-method status="PASS" signature="testNavigateToMarketingAndSalesService()[pri:4, instance:pages.AdminMainMenu.TestAdminMenu@51565ec2]" name="testNavigateToMarketingAndSalesService" duration-ms="17075" started-at="2019-06-14T17:26:12Z" finished-at="2019-06-14T17:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToMarketingAndSalesService -->
+      </class> <!-- pages.AdminMainMenu.TestAdminMenu -->
+      <class name="pages.LoginAdmin.TestLoginAdmin">
+        <test-method status="PASS" signature="testLoginAdmin()[pri:3, instance:pages.LoginAdmin.TestLoginAdmin@675d3402]" name="testLoginAdmin" duration-ms="5725" started-at="2019-06-14T17:26:06Z" finished-at="2019-06-14T17:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAdmin -->
+      </class> <!-- pages.LoginAdmin.TestLoginAdmin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

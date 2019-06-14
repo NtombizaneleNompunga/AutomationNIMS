@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="pages.LoginAdmin.TestLoginAdmin">
+        <methods>
+          <include name="testLoginAdmin"/>
+        </methods>
+      </class> <!-- pages.LoginAdmin.TestLoginAdmin -->
+      <class name="pages.loginPage.LoginTest">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- pages.loginPage.LoginTest -->
+      <class name="pages.AdminMainMenu.TestAdminMenu">
+        <methods>
+          <include name="testNavigateToOpenRequests"/>
+        </methods>
+      </class> <!-- pages.AdminMainMenu.TestAdminMenu -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
