@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 13 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 3 failed,   </span>
+                    <span class="method-stats">13 methods, 13 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,22 @@
                     <div class="method-list-content failed suite-Command_line_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.loginPage.LoginTest" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testApprovals">testApprovals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSearchAndApproveSOWWorkHead" hash-for-method="testApproveWorkhead">testApproveWorkhead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testBillingClientInformation">testBillingClientInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.AdminMainMenu.TestAdminMenu" hash-for-method="testClickOnCRMRefNr">testClickOnCRMRefNr</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -112,7 +127,42 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.AdminMainMenu.TestAdminMenu" hash-for-method="testNavigateToOpenRequests">testNavigateToOpenRequests</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.AdminMainMenu.TestAdminMenu" hash-for-method="testNavigateToMarketingAndSalesService">testNavigateToMarketingAndSalesService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testProjectBillingInformation">testProjectBillingInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testSOWDetails">testSOWDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testSOWDimensionDetails">testSOWDimensionDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testSOWOpportunityDetails">testSOWOpportunityDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSearchAndApproveSOWWorkHead" hash-for-method="testSearchByCRMRefNo">testSearchByCRMRefNo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testSubmitSOW">testSubmitSOW</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="pages.SOWDetails.TestSOWDetails" hash-for-method="testTeamSplit">testTeamSplit</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Command_line_suite -->
@@ -130,6 +180,38 @@
           <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">pages.AdminMainMenu.TestAdminMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickOnCRMRefNr">
+                  </a> <!-- testClickOnCRMRefNr -->
+                  <span class="method-name">testClickOnCRMRefNr</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.AdminMainMenuPage.clickOnCRFLink(AdminMainMenuPage.java:68)
+	at pages.AdminMainMenu.TestAdminMenu.testClickOnCRMRefNr(TestAdminMenu.java:33)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateToMarketingAndSalesService">
+                  </a> <!-- testNavigateToMarketingAndSalesService -->
+                  <span class="method-name">testNavigateToMarketingAndSalesService</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.AdminMainMenuPage.navigateToMarketingAndSales(AdminMainMenuPage.java:41)
+	at pages.AdminMainMenu.TestAdminMenu.testNavigateToMarketingAndSalesService(TestAdminMenu.java:14)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">pages.LoginAdmin.TestLoginAdmin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -138,8 +220,113 @@
                   <a name="testLoginAdmin">
                   </a> <!-- testLoginAdmin -->
                   <span class="method-name">testLoginAdmin</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method public void pages.LoginAdmin.TestLoginAdmin.testLoginAdmin(java.lang.String,java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : loginData
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pages.SOWDetails.TestSOWDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApprovals">
+                  </a> <!-- testApprovals -->
+                  <span class="method-name">testApprovals</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at pages.LoginAdmin.TestLoginAdmin.testLoginAdmin(TestLoginAdmin.java:19)
+	at com.test.NIMS.pages.SOWDetailsPage.populateApprovals(SOWDetailsPage.java:213)
+	at pages.SOWDetails.TestSOWDetails.testApprovals(TestSOWDetails.java:37)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBillingClientInformation">
+                  </a> <!-- testBillingClientInformation -->
+                  <span class="method-name">testBillingClientInformation</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.SOWDetailsPage.populateBillingInformationDetails(SOWDetailsPage.java:232)
+	at pages.SOWDetails.TestSOWDetails.testBillingClientInformation(TestSOWDetails.java:44)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProjectBillingInformation">
+                  </a> <!-- testProjectBillingInformation -->
+                  <span class="method-name">testProjectBillingInformation</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.SOWDetailsPage.populateProjectInformationDetails(SOWDetailsPage.java:263)
+	at pages.SOWDetails.TestSOWDetails.testProjectBillingInformation(TestSOWDetails.java:51)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSOWDetails">
+                  </a> <!-- testSOWDetails -->
+                  <span class="method-name">testSOWDetails</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.SOWDetailsPage.populateSOWDetails(SOWDetailsPage.java:76)
+	at pages.SOWDetails.TestSOWDetails.testSOWDetails(TestSOWDetails.java:30)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSOWDimensionDetails">
+                  </a> <!-- testSOWDimensionDetails -->
+                  <span class="method-name">testSOWDimensionDetails</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.SOWDetailsPage.populateSOWDimensionDetails(SOWDetailsPage.java:56)
+	at pages.SOWDetails.TestSOWDetails.testSOWDimensionDetails(TestSOWDetails.java:23)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSOWOpportunityDetails">
+                  </a> <!-- testSOWOpportunityDetails -->
+                  <span class="method-name">testSOWOpportunityDetails</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.locators.SOWDetailsPageLocators.getDatePickers(SOWDetailsPageLocators.java:112)
+	at com.test.NIMS.pages.SOWDetailsPage.populateSOWOpportunityDetails(SOWDetailsPage.java:24)
+	at pages.SOWDetails.TestSOWDetails.testSOWOpportunityDetails(TestSOWDetails.java:16)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubmitSOW">
+                  </a> <!-- testSubmitSOW -->
+                  <span class="method-name">testSubmitSOW</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.SOWDetailsPage.submit(SOWDetailsPage.java:396)
+	at pages.SOWDetails.TestSOWDetails.testSubmitSOW(TestSOWDetails.java:69)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTeamSplit">
+                  </a> <!-- testTeamSplit -->
+                  <span class="method-name">testTeamSplit</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.test.NIMS.pages.SOWDetailsPage.populateteamSplit(SOWDetailsPage.java:295)
+	at pages.SOWDetails.TestSOWDetails.testTeamSplit(TestSOWDetails.java:59)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -149,35 +336,30 @@
           <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">pages.loginPage.LoginTest</span>
+              <span class="class-name">pages.SOWDetails.TestSearchAndApproveSOWWorkHead</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogin">
-                  </a> <!-- testLogin -->
-                  <span class="method-name">testLogin</span>
+                  <a name="testApproveWorkhead">
+                  </a> <!-- testApproveWorkhead -->
+                  <span class="method-name">testApproveWorkhead</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at pages.loginPage.LoginTest.testLogin(LoginTest.java:21)
+	at com.test.NIMS.locators.SOWDetailsPageLocators.getDatePickers(SOWDetailsPageLocators.java:112)
+	at com.test.NIMS.pages.SearchSOWDetailsPage.approveWorkHead(SearchSOWDetailsPage.java:131)
+	at pages.SOWDetails.TestSearchAndApproveSOWWorkHead.testApproveWorkhead(TestSearchAndApproveSOWWorkHead.java:18)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">pages.AdminMainMenu.TestAdminMenu</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testNavigateToOpenRequests">
-                  </a> <!-- testNavigateToOpenRequests -->
-                  <span class="method-name">testNavigateToOpenRequests</span>
+                  <a name="testSearchByCRMRefNo">
+                  </a> <!-- testSearchByCRMRefNo -->
+                  <span class="method-name">testSearchByCRMRefNo</span>
                   <div class="stack-trace">java.lang.NullPointerException
-	at pages.AdminMainMenu.TestAdminMenu.testNavigateToOpenRequests(TestAdminMenu.java:20)
+	at com.test.NIMS.pages.SearchSOWDetailsPage.searchByCRMRefNo(SearchSOWDetailsPage.java:24)
+	at pages.SOWDetails.TestSearchAndApproveSOWWorkHead.testSearchByCRMRefNo(TestSearchAndApproveSOWWorkHead.java:11)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -198,6 +380,9 @@
       &lt;class name=&quot;pages.AdminMainMenu.TestAdminMenu&quot;/&gt;
       &lt;class name=&quot;pages.LoginAdmin.TestLoginAdmin&quot;/&gt;
       &lt;class name=&quot;pages.loginPage.LoginTest&quot;/&gt;
+      &lt;class name=&quot;pages.OpenRequests.TestOpenRequests&quot;/&gt;
+      &lt;class name=&quot;pages.SOWDetails.TestSearchAndApproveSOWWorkHead&quot;/&gt;
+      &lt;class name=&quot;pages.SOWDetails.TestSOWDetails&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
 &lt;/suite&gt; &lt;!-- Command line suite --&gt;
@@ -211,7 +396,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (3 classes)</span>
+                <span class="test-name">Command line test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,24 +422,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testNavigateToOpenRequests')
+data.setCell(0, 1, 'testNavigateToMarketingAndSalesService')
 data.setCell(0, 2, 'pages.AdminMainMenu.TestAdminMenu')
-data.setCell(0, 3, 3001);
+data.setCell(0, 3, 3046);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLogin')
-data.setCell(1, 2, 'pages.loginPage.LoginTest')
-data.setCell(1, 3, 29);
+data.setCell(1, 1, 'testApprovals')
+data.setCell(1, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(1, 3, 3015);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLoginAdmin')
-data.setCell(2, 2, 'pages.LoginAdmin.TestLoginAdmin')
-data.setCell(2, 3, 1);
+data.setCell(2, 1, 'testClickOnCRMRefNr')
+data.setCell(2, 2, 'pages.AdminMainMenu.TestAdminMenu')
+data.setCell(2, 3, 3015);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSOWOpportunityDetails')
+data.setCell(3, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(3, 3, 3015);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSOWDimensionDetails')
+data.setCell(4, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(4, 3, 3015);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSOWDetails')
+data.setCell(5, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(5, 3, 3014);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSearchByCRMRefNo')
+data.setCell(6, 2, 'pages.SOWDetails.TestSearchAndApproveSOWWorkHead')
+data.setCell(6, 3, 3003);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testBillingClientInformation')
+data.setCell(7, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(7, 3, 3001);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testProjectBillingInformation')
+data.setCell(8, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(8, 3, 3000);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTeamSplit')
+data.setCell(9, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(9, 3, 3000);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testApproveWorkhead')
+data.setCell(10, 2, 'pages.SOWDetails.TestSearchAndApproveSOWWorkHead')
+data.setCell(10, 3, 3000);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSubmitSOW')
+data.setCell(11, 2, 'pages.SOWDetails.TestSOWDetails')
+data.setCell(11, 3, 3000);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLoginAdmin')
+data.setCell(12, 2, 'pages.LoginAdmin.TestLoginAdmin')
+data.setCell(12, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -269,9 +494,37 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.AdminMainMenu.TestAdminMenu</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testNavigateToPendingSOWWorkHead</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.LoginAdmin.TestLoginAdmin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLoginAdmin2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.SOWDetails.TestSOWDetails</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testLogout</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.OpenRequests.TestOpenRequests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testSearchForProbleByProblemNumber</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Command_line_suite" class="panel">
@@ -280,30 +533,84 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">pages.loginPage.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testLogin</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">pages.LoginAdmin.TestLoginAdmin</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testLoginAdmin</span>
-                <span class="method-start">46 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">pages.AdminMainMenu.TestAdminMenu</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testNavigateToOpenRequests</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-name">testNavigateToMarketingAndSalesService</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testClickOnCRMRefNr</span>
+                <span class="method-start">3046 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.SOWDetails.TestSOWDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSOWOpportunityDetails</span>
+                <span class="method-start">6061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSOWDimensionDetails</span>
+                <span class="method-start">9076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSOWDetails</span>
+                <span class="method-start">12091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testApprovals</span>
+                <span class="method-start">15105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testBillingClientInformation</span>
+                <span class="method-start">18120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testProjectBillingInformation</span>
+                <span class="method-start">21124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTeamSplit</span>
+                <span class="method-start">24125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSubmitSOW</span>
+                <span class="method-start">27128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.SOWDetails.TestSearchAndApproveSOWWorkHead</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchByCRMRefNo</span>
+                <span class="method-start">30136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testApproveWorkhead</span>
+                <span class="method-start">33140 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

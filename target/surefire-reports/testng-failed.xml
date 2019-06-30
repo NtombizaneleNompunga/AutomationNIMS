@@ -3,21 +3,35 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
+      <class name="pages.AdminMainMenu.TestAdminMenu">
+        <methods>
+          <include name="testClickOnCRMRefNr"/>
+          <include name="testNavigateToMarketingAndSalesService"/>
+        </methods>
+      </class> <!-- pages.AdminMainMenu.TestAdminMenu -->
       <class name="pages.LoginAdmin.TestLoginAdmin">
         <methods>
           <include name="testLoginAdmin"/>
         </methods>
       </class> <!-- pages.LoginAdmin.TestLoginAdmin -->
-      <class name="pages.loginPage.LoginTest">
+      <class name="pages.SOWDetails.TestSOWDetails">
         <methods>
-          <include name="testLogin"/>
+          <include name="testTeamSplit"/>
+          <include name="testApprovals"/>
+          <include name="testSOWOpportunityDetails"/>
+          <include name="testSubmitSOW"/>
+          <include name="testProjectBillingInformation"/>
+          <include name="testSOWDetails"/>
+          <include name="testBillingClientInformation"/>
+          <include name="testSOWDimensionDetails"/>
         </methods>
-      </class> <!-- pages.loginPage.LoginTest -->
-      <class name="pages.AdminMainMenu.TestAdminMenu">
+      </class> <!-- pages.SOWDetails.TestSOWDetails -->
+      <class name="pages.SOWDetails.TestSearchAndApproveSOWWorkHead">
         <methods>
-          <include name="testNavigateToOpenRequests"/>
+          <include name="testApproveWorkhead"/>
+          <include name="testSearchByCRMRefNo"/>
         </methods>
-      </class> <!-- pages.AdminMainMenu.TestAdminMenu -->
+      </class> <!-- pages.SOWDetails.TestSearchAndApproveSOWWorkHead -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

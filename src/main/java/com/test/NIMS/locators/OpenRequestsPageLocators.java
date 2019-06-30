@@ -1,11 +1,10 @@
-package com.test.NIMS.pages;
+package com.test.NIMS.locators;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.test.NIMS.base.NIMSBase;
-
-public class OpenRequests  extends NIMSBase  {
+public class OpenRequestsPageLocators {
+	
 	
 	public static String problemTitle = "//input[@id='problemNumber']";
 	public static String searchBySubmittedOn  = "//input[@placeholder='Problem Submitted On']";

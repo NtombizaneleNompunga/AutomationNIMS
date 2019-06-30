@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="hello"/>
+    <parameter name="username" value="hello"/>
+    <classes>
+      <class name="pages.HomePage.HomePageTitle">
+        <methods>
+          <include name="homePageTitleTest"/>
+        </methods>
+      </class> <!-- pages.HomePage.HomePageTitle -->
+      <class name="pages.LoginAdmin.TestLoginAdmin">
+        <methods>
+          <include name="testLoginAdmin"/>
+        </methods>
+      </class> <!-- pages.LoginAdmin.TestLoginAdmin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

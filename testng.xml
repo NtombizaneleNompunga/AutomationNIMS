@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite thread-count="6" verbose="10"  name="Suite" parallel="false">
-  <test verbose="6"  name="Test" group-by-instances="true">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name = "username" value="hello"/>
+  <parameter name = "password" value="hello"/>
     <classes>
-      <class name="pages.HomePage.HomePageTitle"/>
-      <class name="pages.loginPage.LoginTest"/>
       <class name="pages.MainMenu.MainMenu"/>
-      <class name="pages.ReportProblem.ReportProblem"/>
+      <class name="pages.OpenRequests.TestOpenRequests"/>
+      <class name="pages.HomePage.HomePageTitle"/>
+      <class name="pages.SOWDetails.TestSOWDetails"/>
       <class name="pages.LoginAdmin.TestLoginAdmin"/>
       <class name="pages.AdminMainMenu.TestAdminMenu"/>
-      <class name="pages.OpenRequests.TestOpenRequests"/>
+      <class name="pages.SOWDetails.TestSearchAndApproveSOWWorkHead"/>
+      <class name="pages.ReportProblem.ReportProblem"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

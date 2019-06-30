@@ -9,6 +9,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class NIMSBase {
@@ -51,6 +53,16 @@ public class NIMSBase {
 		else if(browserType.equalsIgnoreCase("safari")) {
 
 		}
+		else
+			if(browserType.equalsIgnoreCase("edge"))
+			{
+				System.setProperty("webdriver.edge.driver","C:\\MicrosoftWebDriver.exe");
+				EdgeOptions options = new EdgeOptions();
+		
+		   //   options.addArguments("disable-infobars");
+				driver = new EdgeDriver(options);
+				wait = new WebDriverWait(driver, 10);
+			}
 
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

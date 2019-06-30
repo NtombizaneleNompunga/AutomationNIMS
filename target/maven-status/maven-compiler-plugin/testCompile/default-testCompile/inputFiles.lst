@@ -1,6 +1,11 @@
 C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\AdminMainMenu\TestAdminMenu.java
+C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\SOWDetails\TestSOWDetails.java
+C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\com\test\NIMS\data_provider\BaseProvider.java
+C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\com\test\NIMS\data_provider\LoginUserDataProvider.java
 C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\ReportProblem\ReportProblem.java
 C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\loginPage\LoginTest.java
 C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\HomePage\HomePageTitle.java
+C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\OpenRequests\TestOpenRequests.java
 C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\MainMenu\MainMenu.java
+C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\SOWDetails\TestSearchAndApproveSOWWorkHead.java
 C:\Users\Vuyo\Desktop\AutomationNIMS\src\test\java\pages\LoginAdmin\TestLoginAdmin.java
